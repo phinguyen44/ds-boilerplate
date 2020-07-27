@@ -69,10 +69,11 @@ To use this template, clone the repository to your local machine and rename it:
 $ git clone https://wwwin-github.cisco.com/meraki-ds/boilerplate-template.git project-name
 ```
 
-This has set up a new `git` project in the folder `project-name`. We can see 
-`git` has also set up a remote origin for us:
+This has set up a new `git` project in the folder `project-name`. After changing
+to that directory, we can see  `git` has also set up a remote origin for us:
 
 ```
+$ cd project-name
 $ git remote -v
 origin	https://wwwin-github.cisco.com/meraki-ds/boilerplate-template.git (fetch)
 origin	https://wwwin-github.cisco.com/meraki-ds/boilerplate-template.git (push)
