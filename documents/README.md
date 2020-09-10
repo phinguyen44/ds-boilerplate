@@ -7,3 +7,7 @@
 ## Tutorial 2
 
 [version control](versioncontrol_notebooks.md)
+
+## Tutorial 3
+
+[iPython](ipython.md)
