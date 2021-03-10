@@ -66,17 +66,17 @@ Production-ready code & scripts.
 To use this template, clone the repository to your local machine and rename it:
 
 ```
-$ git clone https://wwwin-github.cisco.com/meraki-ds/boilerplate-template.git project-name
+$ git clone https://github.com/phister/ds-boilerplate.git project-name
 ```
 
 This has set up a new `git` project in the folder `project-name`. After changing
-to that directory, we can see  `git` has also set up a remote origin for us:
+to that directory, we can see `git` has also set up a remote origin for us:
 
 ```
 $ cd project-name
 $ git remote -v
-origin	https://wwwin-github.cisco.com/meraki-ds/boilerplate-template.git (fetch)
-origin	https://wwwin-github.cisco.com/meraki-ds/boilerplate-template.git (push)
+origin https://github.com/phister/ds-boilerplate.git (fetch)
+origin https://github.com/phister/ds-boilerplate.git (push)
 ```
 
 We want origin to be for our new project and not the boilerplate template. We
@@ -87,7 +87,7 @@ $ git remote remove origin
 ```
 
 Now, log back into the Github and
-[create a new repository](https://wwwin-github.cisco.com/new) with the project
+[create a new repository](https://github.com/new) with the project
 name specified above. Follow the instructions on the page to "push an existing
 repository from the command line", or enter this (replace the "..."):
 
@@ -97,9 +97,3 @@ $ git push -u origin master
 ```
 
 Now you have a copy of the boilerplate template under `project-name`!
-
-## Resources
-
-1. https://github.com/rlbarter/reproducibility-workflow
-2. https://github.com/makcedward/ds_project_template
-3. https://github.com/drivendata/cookiecutter-data-science
